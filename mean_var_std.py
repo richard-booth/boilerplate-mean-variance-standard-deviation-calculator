@@ -5,7 +5,12 @@ def calculate(list):
         raise ValueError("List must contain nine numbers.")
     #reshape list as a 3 x 3 matrix
     mat = np.array(list).reshape(3,3)
+
+    #initialize dictionary to be returned
     calculations = {}
+
+    #add values to dictionary:
+    
     #mean
     calculations['mean'] = [mat.mean(axis=0).tolist(), mat.mean(axis=1).tolist(), mat.mean()]
 
