@@ -1,11 +1,8 @@
-# Mean-Variance-Standard Deviation Calculator
-You will be working on this project with our Gitpod starter code.
+# Assignment: Mean-Variance-Standard Deviation Calculator
 
-We are still developing the interactive instructional part of the Python curriculum. For now, here are some videos on the freeCodeCamp.org YouTube channel that will teach you everything you need to know to complete this project:
+This is a simple exercise using `numpy` to calculate a few basic statistical measures of a 3 x 3 matrix, and return these measures in a dictionary.
 
-Python for Everybody Video Course (14 hours)
-
-How to Analyze Data with Python Pandas (10 hours)
+## Instructions: 
 
 Create a function named calculate() in `mean_var_std.py` that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
 
